@@ -11,7 +11,7 @@ Get your application from github, unpack it, open a console, move inside the san
     bin/vendors install
 
 ## Configure propel
-After that you must configure propel. Copy the the config.yml.dist to config.yml, open it and add your database user and password to the propel section:
+After that you must configure propel. Open the config.yml and add your database user and password to the propel section:
 
     propel:
         path:       "%kernel.root_dir%/../vendor/propel"
