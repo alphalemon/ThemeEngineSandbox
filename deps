@@ -80,7 +80,7 @@
 [PropelBundle]
     git=https://github.com/propelorm/PropelBundle.git
     target=/bundles/Propel/PropelBundle
-    origin=2.0
+    version=origin/2.0
 
 [phing]
     git=https://github.com/Xosofox/phing
