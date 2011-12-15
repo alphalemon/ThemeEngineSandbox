@@ -1,0 +1,41 @@
+slots:
+  search_box:
+    0: |
+      Search <input type="text" value="" size="10" /> <input type="submit" />
+      
+  logo:
+    0: |
+      The company logo
+      
+  nav_menu:
+    0: |
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+      
+  slogan_box:
+    0: |
+      <p>This is the base template used by AlphaLemon ThemeBundle.<br /><br />Feel free to customize it for your needs</p>
+      
+  nav_menu_1:
+    0: |
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+      
+  nav_menu_2:
+    0: |
+      <ul>
+        <li><a href="http://alphalemon.com">AlphaLemon</a></li>
+        <li><a href="http://symfony.com/doc/current/book/index.html">Symfony2 Documentation</a></li>
+        <li><a href="http://symfony.com/doc/current/cookbook/index.html">Symfony2 Cookbook</a></li>
+        <li><a href="http://www.propelorm.org">Propel Orm</a></li>
+      </ul>
+      
+  social_box:
+    0: |
+      <p>Follow us!</p>

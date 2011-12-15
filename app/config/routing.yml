@@ -1,0 +1,12 @@
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
+
+AlphaLemonWebSiteBundle:
+    resource: "@AlphaLemonWebSiteBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    
+_alphaLemonThemeEngineBundle:
+    resource: "@AlphaLemonThemeEngineBundle/Resources/config/routing.yml"
