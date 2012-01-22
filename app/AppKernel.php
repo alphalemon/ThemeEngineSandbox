@@ -27,7 +27,7 @@ class AppKernel extends Kernel
         
         // Enables themes autoloading. If you prefer to add your themes manually, just remove the next 
         // two lines
-        $themes = new \ThemeEngineCore\Autoloader\ThemesAutoloader();
+        $themes = new \AlphaLemon\ThemeEngineBundle\Core\Autoloader\ThemesAutoloader();
         $bundles = array_merge($bundles, $themes->getBundles());
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
